@@ -13,6 +13,14 @@ public class Main {
 		
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
+
+		Banco santander = new Banco();
+		santander.setNome("Santander");
+		santander.adicionarCliente(cc);
+		santander.adicionarCliente(poupanca);
+
+		santander.numeroClientes();
+		santander.nomeClientes();
 	}
 
 }

@@ -1,0 +1,66 @@
+table {
+  width: 100%;
+}
+.mat-mdc-header-row {
+  background-color: #ebebeb;
+  height: 3em;
+}
+.mat-mdc-row {
+  height: 80px;
+}
+.mat-column-select {
+  overflow: initial;
+  width: 3% !important;
+}
+.mat-column-userIcon {
+  width: 3%;
+}
+.mat-column-userDetails {
+  width: 53%;
+}
+.mat-column-role {
+  width: 10%;
+}
+.mat-column-department {
+  width: 15%;
+}
+.mat-column-submitsTo {
+  width: 15%;
+}
+.image {
+  width: 60px;
+  height: 60px;
+}
+.clip-circle {
+  clip-path: circle(30px at center);
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.user-details p{
+  margin: 1px;
+  align-items: right;
+}
+
+.user-details mat-icon{
+  float: left;
+  transform: scale(0.9);
+}
+
+.user-name {
+  color: lightblue;
+  font-size: 1.3em;
+}
+
+.user-contact {
+  font-size: 0.8em;
+}
+
+.user-add-on {
+  font-size: 0.8em;
+  color:lightgray;
+}

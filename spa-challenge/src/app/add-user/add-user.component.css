@@ -1,0 +1,17 @@
+.button-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-height: 20vh;
+}
+
+.button-row button {
+  font-size: x-large;
+  color: white;
+  background-color: rgb(40, 80, 212);
+  border-radius: 15px;
+  margin-right: 40vh;
+  margin-bottom: 5vh;
+  width: 12em;
+  height: 2em;
+}
